@@ -1,0 +1,23 @@
+.OptionBtn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.OptionList {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+
+.OptionItem:not(:last-child) {
+  margin-right: 10px;
+}
+
+.OptionBtn {
+  cursor: pointer;
+}
+
+.Notification {
+  font-weight: bold;
+  color: rgb(199, 27, 27);
+}
